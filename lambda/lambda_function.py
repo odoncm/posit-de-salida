@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Skill de Alexa "Pósit de Salida".
+"""Skill de Alexa "Notas de Salida".
 
 Guarda recordatorios puntuales y recurrentes y los lee cuando el usuario sale de casa.
 Pensada para Alexa-Hosted (Python 3.8) con DynamoDB como persistencia.
@@ -135,7 +135,7 @@ class LaunchHandler(AbstractRequestHandler):
         if T.total(datos) == 0:
             return responder(
                 handler_input,
-                "Hola, soy tu pósit de salida. " + EJEMPLOS + " ¿Qué quieres que te recuerde?",
+                "Hola, esto es Notas de Salida, tu pósit de la puerta. " + EJEMPLOS + " ¿Qué quieres que te recuerde?",
                 "¿Qué quieres que te recuerde cuando salgas?",
             )
         return responder(

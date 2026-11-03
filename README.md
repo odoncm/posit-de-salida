@@ -1,4 +1,4 @@
-# Pósit de Salida (skill de Alexa)
+# Notas de Salida (skill de Alexa)
 
 Los pósits de la puerta de casa, por voz. Invocación: **«notas de salida»** (es-ES).
 
