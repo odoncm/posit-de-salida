@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "mis pósits",
+      "invocationName": "mis posits",
       "intents": [
         {
           "name": "AnadirTareaIntent",
