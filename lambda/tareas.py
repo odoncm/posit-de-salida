@@ -154,6 +154,9 @@ def asegurar(datos):
     datos = datos or {}
     datos.setdefault("puntuales", [])
     datos.setdefault("recurrentes", [])
+    # DynamoDB devuelve los números como Decimal: los pasamos a int.
+    for r in datos["recurrentes"]:
+        r["dias"] = [int(d) for d in r.get("dias", [])]
     return datos
 
 

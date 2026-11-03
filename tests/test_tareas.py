@@ -42,3 +42,8 @@ def test_ciclo():
 
 def test_es_todo():
     assert T.es_todo("todas las tareas") and T.es_todo("todo") and not T.es_todo("la basura")
+
+def test_decimal_de_dynamodb():
+    from decimal import Decimal
+    d = T.asegurar({"recurrentes": [{"id": "x", "texto": "bajar la basura", "dias": [Decimal(1), Decimal(3)]}]})
+    assert T.formatear_dias(d["recurrentes"][0]["dias"]) == "los martes y jueves"
