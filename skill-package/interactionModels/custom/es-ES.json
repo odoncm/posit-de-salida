@@ -1,0 +1,162 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mis pósits",
+      "intents": [
+        {
+          "name": "AnadirTareaIntent",
+          "slots": [
+            {
+              "name": "tarea",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "recuérdame {tarea}",
+            "recuerdame {tarea}",
+            "recuérdame que {tarea}",
+            "que me recuerde {tarea}",
+            "que me recuerdes {tarea}",
+            "recordarme {tarea}",
+            "quiero que me recuerdes {tarea}",
+            "me tienes que recordar {tarea}",
+            "apunta {tarea}",
+            "apúntame {tarea}",
+            "anota {tarea}",
+            "añade {tarea}",
+            "agrega {tarea}",
+            "nueva tarea {tarea}",
+            "añade la tarea {tarea}",
+            "apunta la tarea {tarea}",
+            "cuando salga recuérdame {tarea}",
+            "al salir recuérdame {tarea}",
+            "cuando salga de casa recuérdame {tarea}",
+            "que me recuerde cuando salga {tarea}",
+            "tengo que acordarme de {tarea}",
+            "no me dejes olvidar {tarea}"
+          ]
+        },
+        {
+          "name": "BorrarTareaIntent",
+          "slots": [
+            {
+              "name": "tarea",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "borra {tarea}",
+            "quita {tarea}",
+            "elimina {tarea}",
+            "tacha {tarea}",
+            "borra la tarea {tarea}",
+            "quita la tarea {tarea}",
+            "ya he hecho {tarea}",
+            "he hecho {tarea}",
+            "ya hice {tarea}",
+            "ya está hecho {tarea}",
+            "olvida {tarea}"
+          ]
+        },
+        {
+          "name": "TareaRecurrenteIntent",
+          "slots": [],
+          "samples": [
+            "añade una tarea recurrente",
+            "nueva tarea recurrente",
+            "quiero una tarea que se repita",
+            "añade una tarea que se repite",
+            "una tarea recurrente",
+            "crear una tarea recurrente",
+            "cómo añado una tarea recurrente"
+          ]
+        },
+        {
+          "name": "SalirIntent",
+          "slots": [],
+          "samples": [
+            "me voy",
+            "ya me voy",
+            "me voy de casa",
+            "salgo",
+            "salgo de casa",
+            "voy a salir",
+            "estoy saliendo",
+            "me marcho",
+            "me piro",
+            "qué tengo que hacer",
+            "qué tengo que hacer antes de salir",
+            "qué tengo que hacer hoy",
+            "qué me toca hoy",
+            "qué hay para hoy",
+            "dime lo de hoy",
+            "qué tengo pendiente",
+            "qué me tengo que llevar",
+            "de qué me tengo que acordar",
+            "qué no se me puede olvidar"
+          ]
+        },
+        {
+          "name": "ListarTareasIntent",
+          "slots": [],
+          "samples": [
+            "qué tareas tengo",
+            "dime todas las tareas",
+            "dime todas mis tareas",
+            "lista mis tareas",
+            "lee mis tareas",
+            "lee la lista",
+            "qué tengo apuntado",
+            "qué hay en la lista",
+            "qué hay apuntado",
+            "todas mis tareas",
+            "léeme todo"
+          ]
+        },
+        {
+          "name": "BorrarTodoIntent",
+          "slots": [],
+          "samples": [
+            "borra todas las tareas",
+            "borra todo",
+            "elimina todas las tareas",
+            "elimina todo",
+            "vacía la lista",
+            "borra la lista",
+            "empieza de cero",
+            "quita todas las tareas"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
