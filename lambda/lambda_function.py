@@ -131,7 +131,12 @@ class LaunchHandler(AbstractRequestHandler):
         if texto:
             if reprompt:
                 return responder(handler_input, texto, reprompt)
-            return responder(handler_input, texto)
+            # Al abrir la skill dejamos la puerta abierta para apuntar algo nuevo.
+            return responder(
+                handler_input,
+                texto.replace(" ¡Que vaya bien!", " ¿Quieres apuntar algo más?"),
+                "¿Quieres apuntar algo más? Si no, di: no.",
+            )
         if T.total(datos) == 0:
             return responder(
                 handler_input,
@@ -141,7 +146,7 @@ class LaunchHandler(AbstractRequestHandler):
         return responder(
             handler_input,
             "Hoy no tienes nada pendiente al salir. ¿Quieres añadir algo?",
-            "Dime qué quieres que te recuerde, o di: salir.",
+            "Dime qué quieres que te recuerde, o di: no.",
         )
 
 

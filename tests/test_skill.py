@@ -63,3 +63,12 @@ def test_conversacion():
     txt, end, attrs = run(intent("BorrarTodoIntent"))
     assert "No tienes" in txt
     print(STORE)
+
+def test_abrir_con_solo_recurrentes_no_cierra():
+    STORE.clear()
+    run(intent("AnadirTareaIntent", "los martes bajar la basura"))
+    DIA["v"] = 1
+    txt, end, _ = run(evento({"type": "LaunchRequest"}))
+    assert "bajar la basura" in txt and "apuntar algo más" in txt and end is not True
+    txt, end, _ = run(intent("AMAZON.NoIntent", new=False))
+    assert end is True
