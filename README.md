@@ -4,7 +4,7 @@ Los pósits de la puerta de casa, por voz. Apunta lo que no quieres olvidar y, c
 
 - **Invocación:** «papelito en la puerta»
 - **Idioma:** español (España)
-- **Tienda:** busca «Papelito en la Puerta» en la app de Alexa
+- **Tienda:** [Papelito en la Puerta en Amazon.es](https://www.amazon.es/dp/B0HQ7C1BNP/), o busca «Papelito en la Puerta» en la app de Alexa
 
 ## Guía de uso
 
