@@ -39,10 +39,6 @@
       "isChildDirected": false,
       "isExportCompliant": true,
       "containsAds": false,
-      "shoppingKit": {
-        "isShoppingActionsEnabled": false,
-        "isAmazonAssociatesOnAmazonShoppingActivated": false
-      },
       "locales": {
         "es-ES": {
           "privacyPolicyUrl": "https://odoncm.github.io/posit-de-salida/privacidad.html",
