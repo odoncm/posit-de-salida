@@ -1,10 +1,10 @@
-# Notas de Salida (skill de Alexa)
+# Papelito en la Puerta (skill de Alexa)
 
-Los pósits de la puerta de casa, por voz. Invocación: **«notas de salida»** (es-ES).
+Los pósits de la puerta de casa, por voz. Invocación: **«papelito en la puerta»** (es-ES).
 
-- «Alexa, dile a notas de salida que me recuerde poner la lavadora» → tarea puntual
-- «Alexa, dile a notas de salida que me recuerde los martes y jueves bajar la basura» → recurrente
-- «Alexa, dile a notas de salida que me voy» → lee las tareas de hoy y ofrece borrar las puntuales
+- «Alexa, dile a papelito en la puerta que me recuerde poner la lavadora» → tarea puntual
+- «Alexa, dile a papelito en la puerta que me recuerde los martes y jueves bajar la basura» → recurrente
+- «Alexa, dile a papelito en la puerta que me voy» → lee las tareas de hoy y ofrece borrar las puntuales
 - «qué tareas tengo», «borra …», «borra todas las tareas»
 
 ## Estructura
