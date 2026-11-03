@@ -6,11 +6,11 @@
         "es-ES": {
           "name": "Pósit de Salida",
           "summary": "Tus pósits de la puerta de casa, por voz: apunta tareas y Alexa te las recuerda cuando sales.",
-          "description": "Como los pósits que pegas en la puerta de casa, pero por voz.\n\nApunta lo que no quieres olvidar al salir, y cuando te vayas, Alexa te lo recuerda.\n\nTAREAS PUNTUALES\n• «Alexa, dile a mis posits que me recuerde poner la lavadora»\nCuando salgas, te la recordará y te preguntará si la borra.\n\nTAREAS QUE SE REPITEN\n• «Alexa, dile a mis posits que me recuerde los martes y jueves bajar la basura»\n• «Alexa, dile a mis posits que me recuerde todos los días coger las llaves»\n• También: entre semana, los fines de semana, cada lunes…\nSolo te las recuerda los días que toca.\n\nAL SALIR DE CASA\n• «Alexa, dile a mis posits que me voy»\n• «Alexa, pregúntale a mis posits qué tengo que hacer»\n\nOTRAS COSAS\n• «Alexa, pregúntale a mis posits qué tareas tengo»\n• «Alexa, dile a mis posits que borre poner la lavadora»\n• «Alexa, dile a mis posits que borre todas las tareas»\n\nTRUCO: crea una rutina en la app de Alexa que, al decir «Alexa, me voy», abra la skill Pósit de Salida.",
+          "description": "Como los pósits que pegas en la puerta de casa, pero por voz.\n\nApunta lo que no quieres olvidar al salir, y cuando te vayas, Alexa te lo recuerda.\n\nTAREAS PUNTUALES\n• «Alexa, dile a notas de salida que me recuerde poner la lavadora»\nCuando salgas, te la recordará y te preguntará si la borra.\n\nTAREAS QUE SE REPITEN\n• «Alexa, dile a notas de salida que me recuerde los martes y jueves bajar la basura»\n• «Alexa, dile a notas de salida que me recuerde todos los días coger las llaves»\n• También: entre semana, los fines de semana, cada lunes…\nSolo te las recuerda los días que toca.\n\nAL SALIR DE CASA\n• «Alexa, dile a notas de salida que me voy»\n• «Alexa, pregúntale a notas de salida qué tengo que hacer»\n\nOTRAS COSAS\n• «Alexa, pregúntale a notas de salida qué tareas tengo»\n• «Alexa, dile a notas de salida que borre poner la lavadora»\n• «Alexa, dile a notas de salida que borre todas las tareas»\n\nTRUCO: crea una rutina en la app de Alexa que, al decir «Alexa, me voy», abra la skill Pósit de Salida.",
           "examplePhrases": [
-            "Alexa, abre mis posits",
-            "Alexa, dile a mis posits que me recuerde poner la lavadora",
-            "Alexa, dile a mis posits que me voy"
+            "Alexa, abre notas de salida",
+            "Alexa, dile a notas de salida que me recuerde poner la lavadora",
+            "Alexa, dile a notas de salida que me voy"
           ],
           "keywords": [
             "recordatorio",
@@ -29,7 +29,7 @@
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "No requiere cuenta vinculada ni permisos. Prueba: 'abre mis posits', 'recuérdame poner la lavadora', 'recuérdame los martes bajar la basura', 'me voy' (lee las tareas de hoy y pregunta si borra las puntuales; responde sí), 'qué tareas tengo', 'borra bajar la basura', 'borra todas las tareas'. La zona horaria se obtiene de la API de ajustes del dispositivo (fallback Europe/Madrid).",
+      "testingInstructions": "No requiere cuenta vinculada ni permisos. Prueba: 'abre notas de salida', 'recuérdame poner la lavadora', 'recuérdame los martes bajar la basura', 'me voy' (lee las tareas de hoy y pregunta si borra las puntuales; responde sí), 'qué tareas tengo', 'borra bajar la basura', 'borra todas las tareas'. La zona horaria se obtiene de la API de ajustes del dispositivo (fallback Europe/Madrid).",
       "category": "ORGANIZERS_AND_ASSISTANTS",
       "distributionMode": "PUBLIC"
     },

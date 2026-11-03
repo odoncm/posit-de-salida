@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "mis posits",
+      "invocationName": "notas de salida",
       "intents": [
         {
           "name": "AnadirTareaIntent",
@@ -33,7 +33,19 @@
             "cuando salga de casa recuérdame {tarea}",
             "que me recuerde cuando salga {tarea}",
             "tengo que acordarme de {tarea}",
-            "no me dejes olvidar {tarea}"
+            "no me dejes olvidar {tarea}",
+            "me recuerde {tarea}",
+            "me recuerdes {tarea}",
+            "recuerde {tarea}",
+            "recuérdeme {tarea}",
+            "me recuerde que {tarea}",
+            "apunte {tarea}",
+            "anote {tarea}",
+            "añada {tarea}",
+            "me apunte {tarea}",
+            "me avise de {tarea}",
+            "avísame de {tarea}",
+            "me avises de {tarea}"
           ]
         },
         {
@@ -55,7 +67,14 @@
             "he hecho {tarea}",
             "ya hice {tarea}",
             "ya está hecho {tarea}",
-            "olvida {tarea}"
+            "olvida {tarea}",
+            "borre {tarea}",
+            "quite {tarea}",
+            "elimine {tarea}",
+            "tache {tarea}",
+            "borre la tarea {tarea}",
+            "quite la tarea {tarea}",
+            "ya he {tarea}"
           ]
         },
         {
@@ -93,7 +112,15 @@
             "qué tengo pendiente",
             "qué me tengo que llevar",
             "de qué me tengo que acordar",
-            "qué no se me puede olvidar"
+            "qué no se me puede olvidar",
+            "me marcho de casa",
+            "que me voy",
+            "que salgo",
+            "que me marcho",
+            "que voy a salir",
+            "me voy ya",
+            "nos vamos",
+            "que nos vamos"
           ]
         },
         {
@@ -110,7 +137,13 @@
             "qué hay en la lista",
             "qué hay apuntado",
             "todas mis tareas",
-            "léeme todo"
+            "léeme todo",
+            "qué tareas tengo apuntadas",
+            "que me diga mis tareas",
+            "que me lea mis tareas",
+            "que me lea la lista",
+            "me lea la lista",
+            "me diga todas las tareas"
           ]
         },
         {
@@ -124,7 +157,12 @@
             "vacía la lista",
             "borra la lista",
             "empieza de cero",
-            "quita todas las tareas"
+            "quita todas las tareas",
+            "borre todas las tareas",
+            "borre todo",
+            "elimine todas las tareas",
+            "vacíe la lista",
+            "quite todas las tareas"
           ]
         },
         {
